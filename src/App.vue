@@ -1,19 +1,21 @@
 <template>
+
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Send data from child to parent</h1>
+  <home/>
+  <user/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import home from './components/home.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    home
   }
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
